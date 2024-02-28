@@ -36,6 +36,10 @@ Edasi toimetasin Git Bashes järgnevate käskudega:
 - docker image tag tic-tac-toe-game jetti123/tic-tac-toe-game
 - docker push jetti123/tic-tac-toe-game
 
+Rakendusele saab ligipääsu:
+- docker push jetti123/tic-tac-toe-game:tagname
+- docker run -dp 8000:3000 --name tic-tac-toe-game jetti123/tic-tac-toe-game:latest
+
 Probleemid:
 
 - parema pildi saamiseks läbisin paar veebikursust Pluralsight platformil, googeldasin. Teema ei olnud lihtne, kuna ei ole eelnevalt Dockeriga kokkupuuteid olnud.
