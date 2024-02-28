@@ -26,3 +26,17 @@ $ npm start
 
 ## :mailbox: Contact
   - <a target="_blank" href="mailto:ucefhammadi@gmail.com">E-mail</a>
+
+Rakenduse tööle panemine Dockeris:
+
+Esmalt installisin arvutisse docker desktopi ning lõin kasutaja. Töö tegemisel kasutasin õppematerjali juhiseid. VS Codes lisasin projektile Dockerfile. 
+Edasi toimetasin Git Bashes järgnevate käskudega:
+- docker image build -t tic-tac-toe-game:latest .
+- docker login
+- docker image tag tic-tac-toe-game jetti123/tic-tac-toe-game
+- docker push jetti123/tic-tac-toe-game
+
+Probleemid:
+
+- parema pildi saamiseks läbisin paar veebikursust Pluralsight platformil, googeldasin. Teema ei olnud lihtne, kuna ei ole eelnevalt Dockeriga kokkupuuteid olnud.
+- töö käigus ilmnes, et olin jätnud Git clone sammu vahele. Õnneks sain kasutada forki loomist VS code commiti ja synci abil.
